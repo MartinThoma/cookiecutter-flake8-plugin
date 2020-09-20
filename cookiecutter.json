@@ -1,0 +1,11 @@
+{
+  "full_name": "Martin Thoma",
+  "email": "info@martin-thoma.de",
+  "github_username": "MartinThoma",
+  "project_name": "flake8-awesome",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "rules_prefix": "{{ cookiecutter.project_slug[:3].upper() }}",
+  "project_short_description": "Flake8 plugin that lets you feel the pure awesomeness of awesome.",
+  "version": "0.1.0",
+  "open_source_license": ["MIT license", "BSD license", "Not open source"]
+}
